@@ -2,6 +2,46 @@
   text-align: center;
 }
 
+.styling {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.buttons {
+  background-color: lightblue;
+}
+@media only screen and (max-width: 800px) {
+  .styling {
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: flex-start; */
+  }
+
+  .styling div  form {
+    background-color: rgb(205, 214, 216);
+    justify-content:center
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

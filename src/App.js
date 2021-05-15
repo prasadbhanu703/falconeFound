@@ -5,7 +5,7 @@ import { useState } from "react";
 
 function App() {
 let [falcone , setFalcone] = useState(Math.floor(Math.random() * 6));
-console.log(falcone);
+console.log("falcone is at ", falcone );
 
   return (
     <ErrorBoundary> 
